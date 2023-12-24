@@ -22,13 +22,4 @@ struct ContentView: View {
     ContentView()
 }
 
-struct Post: Identifiable {
-    let id: String
-    let title: String
-}
-
-let posts : [Post] = [
-Post(id: "1", title: "hello"),
-Post(id: "2", title: "hola"),
-Post(id: "3", title: "bonjour"),
-]
+let posts : [Post] = []
